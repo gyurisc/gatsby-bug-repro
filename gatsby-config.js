@@ -16,7 +16,7 @@ module.exports = {
         tables:[
           {
             baseId: process.env.GATSBY_AIRTABLE_BASE_ID,
-            tableName: `Customers`,
+            tableName: `Cities`,
             mapping:{image: `fileNode`}
           },
         ]
